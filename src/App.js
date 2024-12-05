@@ -59,11 +59,12 @@ const ImageUpload = () => {
       )}
 
       {result && (
-        <div className="bg-gray-100 p-6 rounded-md shadow-md text-gray-800 text-sm font-mono whitespace-pre-wrap mt-8">
+        <div className="bg-gray-100 p-6 rounded-md shadow-md text-gray-800 text-sm font-mono whitespace-pre-wrap mt-8 h-full">
           <h2 className="text-xl font-semibold text-gray-700">Math Expression Result</h2>
-          <pre className="bg-gray-900 text-white p-4 rounded-lg overflow-auto mt-4">{result}</pre>
+          <pre className="bg-gray-900 text-white p-4 rounded-lg overflow-auto mt-4 h-full text-wrap">{result}</pre>
         </div>
       )}
+
 
       <div className="bg-gray-200 p-6 rounded-md shadow-md text-gray-800 mt-8">
         <h2 className="text-xl font-semibold text-gray-700">How to Use</h2>
