@@ -77,7 +77,7 @@ const ImageUpload = () => {
 
       <div className="text-center mt-8">
         <p className="text-gray-500 text-sm">© 2024 NeuralMath, All rights reserved.</p>
-        <p className="text-gray-500 text-sm mt-2">For inquiries, contact us at <a href="mailto:support@neuralmath.com" className="text-blue-500 hover:text-blue-700">support@neuralmath.com</a></p>
+        {/* <p className="text-gray-500 text-sm mt-2">For inquiries, contact us at <a href="mailto:support@neuralmath.com" className="text-blue-500 hover:text-blue-700">support@neuralmath.com</a></p> */}
       </div>
     </div>
 
